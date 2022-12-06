@@ -1,17 +1,20 @@
-/* Error: expected ":".
- *    ,
- * 16 |                                             li
- *    |                                               ^
- *    '
- *   public\sass\style.sass 16:47  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected ":".\a    \2577 \a 16 \2502                                              li\d\a    \2502                                                ^\a    \2575 \a   public\\sass\\style.sass 16:47  root stylesheet';
+header topbar .top {
+  background-color: #070455;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+
+header topbar .top .sign ul {
+  display: flex;
+  list-style: none;
+}
+
+header topbar ul li {
+  font-size: 10px;
+  color: #747474;
+  margin-left: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
