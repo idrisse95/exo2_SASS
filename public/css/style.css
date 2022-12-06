@@ -33,12 +33,12 @@ section #one div ul {
 }
 
 section #one ul li:first-child {
-  font-size: 2em;
+  font-size: 4em;
   font-weight: bold;
 }
 
 section #one ul li:nth-child(2) {
-  font-size: 20px;
+  font-size: 40px;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -71,7 +71,7 @@ section #two div ul {
 
 section #two div ul li:first-child {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 section #two div:nth-child(2) img {
@@ -98,7 +98,7 @@ section #twoa div ul {
 
 section #twoa div ul li:first-child {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 40px;
 }
 
 section #twoa div:nth-child(2) img {
@@ -125,7 +125,7 @@ section #twoab div ul {
 
 section #twoab div ul li:first-child {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 40px;
 }
 
 section #twoab div:nth-child(1) img {
